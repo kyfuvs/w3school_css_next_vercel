@@ -1,0 +1,7 @@
+echo "# w3school_css_next_vercel" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kyfuvs/w3school_css_next_vercel.git
+git push -u origin master

@@ -19,3 +19,39 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.dropdown-menu {
+  background-color: #101111; 
+}
+
+.dropdown-item {
+  background-color: #101111; 
+  color: white; 
+}
+
+.dropdown-item:hover {
+  background-color: #6c757d; 
+  color: white; 
+}
+
+.custom-offcanvas {
+  margin-top: 15vh; /* 15% of the viewport height */
+  width: 20vw !important;
+  background-color: #101111 !important;
+}
+
+.custom-offcanvas offcanvas-body{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* For screens smaller than 428px */
+@media (max-width: 428px) {
+  .custom-offcanvas {
+    width: 50vw !important;  /* Set the offcanvas width to 80% of the screen width */
+    background-color: #101111 !important;
+  }
+}
+
+
+

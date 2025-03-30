@@ -1,6 +1,8 @@
 // src/app/layout.js
 import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap CSS
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import "./globals.css"; // Import global styles
+import BS_navbar from '@/components/bs_navbar'
 //import { BS_navbar } from "@/components/BS_navbar"; // Import navbar
 // import BS_navbar from '@/components/BS_navbar'
 import BootstrapLoader from "@/components/BootstrapLoader"; // Import the Bootstrap loader
@@ -16,7 +18,7 @@ export default function RootLayout({ children }) {
       <head></head>
       <body>
         {/* ✅ Navbar Component */}
-        {/* <BS_navbar /> */}
+        <BS_navbar />
         
         {/* Load Bootstrap JS dynamically on the client side */}
         <BootstrapLoader />
