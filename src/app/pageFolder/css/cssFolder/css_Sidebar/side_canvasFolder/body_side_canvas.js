@@ -3,7 +3,8 @@ import DD_2_advance from "./bodyFolder/dd_2_advance";
 
 const Body_side_canvas=()=>{
     return(
-        <div >
+        // <div className="offcanvas-body" >
+        <div>
             <DD_1_basic/>
             <DD_2_advance/>
         </div>

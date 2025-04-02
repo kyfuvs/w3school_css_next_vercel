@@ -1,7 +1,4 @@
-import DD_7_colors from "./dd_1_basicFolder/dd_7_colors";
-import DD_8_bg from "./dd_1_basicFolder/dd_8_bg";
-
-const DD_1_basic = () => {
+const DD_bs_3_grid = () => {
     return (
         <div className="dropdown">
             {/* Parent Dropdown Toggle */}
@@ -12,21 +9,20 @@ const DD_1_basic = () => {
                 data-bs-auto-close="outside"
                 aria-expanded="false"
             >
-                CSS Basic
+                BS-5 Grid
             </button>
 
             {/* Parent Dropdown Menu */}
             <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="/pageFolder/css/cssFolder/css_1_Basic/basic_1_home">CSS Home</a></li>
-                <li><a className="dropdown-item" href="/pageFolder/css/cssFolder/css_1_Basic/basic_2_intro">CSS Intro</a></li>
+                <li><a className="dropdown-item" href="/pageFolder/bootstrap5/bsFolder/bs_3_Grid/bs_grid_1_system">BS-5 Grid System</a></li>
+                <li><a className="dropdown-item" href="/pageFolder/bootstrap5/bsFolder/bs_3_Grid/bs_grid_2_stack">BS-5 Stacked/Horizontal</a></li>
                 <li><a className="dropdown-item" href="/pageFolder/css/cssFolder/css_1_Basic/basic_3_Syntax">CSS Syntax</a></li>
                 
-                <DD_7_colors />
-                <DD_8_bg/>
+               
                 
             </ul>
         </div>
     );
 };
 
-export default DD_1_basic;
+export default DD_bs_3_grid;

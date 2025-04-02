@@ -7,6 +7,7 @@ import Menu_brand from '@/components/menuFolder/menu_brand'
 import Menu_toggle from '@/components/menuFolder/menu_toggle'
 import Menu_home from '@/components/menuFolder/menu_home'
 import Menu_css from '@/components/menuFolder/menu_css'
+import Menu_bs from '@/components/menuFolder/menu_bs'
 
 
 const BS_navbar = () => {
@@ -20,7 +21,7 @@ const BS_navbar = () => {
           <ul className="navbar-nav">
             <li className="nav-item"><Menu_home/></li>
             <li className="nav-item"><Menu_css/></li>
-            {/* <li className="nav-item"><Menu_push/></li> */}
+            <li className="nav-item"><Menu_bs/></li>
           </ul>
         </div>
       </div>

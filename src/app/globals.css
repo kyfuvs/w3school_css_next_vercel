@@ -20,6 +20,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.dropdown:hover {
+  background-color: #6c757d; 
+  color: white; 
+}
+
+
+
 .dropdown-menu {
   background-color: #101111; 
 }
@@ -33,6 +40,17 @@ body {
   background-color: #6c757d; 
   color: white; 
 }
+
+/* Custom CSS to minimize gap */
+.offcanvas-header {
+  margin-bottom: 0 !important; 
+  padding-bottom: 0 !important; 
+}
+
+/* .offcanvas-body {
+  padding-top: 0 !important; 
+  margin-top: 0 !important;
+} */
 
 .custom-offcanvas {
   margin-top: 15vh; /* 15% of the viewport height */
@@ -52,6 +70,4 @@ body {
     background-color: #101111 !important;
   }
 }
-
-
 
