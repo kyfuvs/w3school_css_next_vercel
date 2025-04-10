@@ -17,7 +17,8 @@ const DD_bs_1_basic = () => {
                 <li><a className="dropdown-item" href="/pageFolder/bootstrap5/bsFolder/bs_1_Basic/bs_basic_1_home">BS-5 Home</a></li>
                 <li><a className="dropdown-item" href="/pageFolder/bootstrap5/bsFolder/bs_1_Basic/bs_basic_2_get_start">BS-5 Get Started</a></li>
                 <li><a className="dropdown-item" href="/pageFolder/bootstrap5/bsFolder/bs_1_Basic/bs_basic_3_container">BS-5 Container</a></li>
-                
+                <li><a className="dropdown-item" href="/pageFolder/bootstrap5/bsFolder/bs_1_Basic/bs_basic_4_grid">BS-5 Grid</a></li>
+               
                
                 
             </ul>
